@@ -3969,13 +3969,10 @@ h4.grand-totall-title span {
 -----------------------------*/
 
 .login-form-container {
-    background: transparent none repeat scroll 0 0; 
-    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1); 
+    background: transparent none repeat scroll 0 0;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
     padding: 80px;
     text-align: left;
-}
-.login-form-container {
-    background-color: cadetblue;
 }
 .login-text {
     margin-bottom: 30px;
@@ -3991,7 +3988,7 @@ h4.grand-totall-title span {
     font-size: 15px;
 }
 .login-form-container input {
-    background-color: lightcyan;
+    background-color: transparent;
     border: 1px solid #ebebeb;
     color: #666;
     font-size: 14px;
@@ -5317,58 +5314,6 @@ h5.panel-title span {
     width: 30px;
 }
 
-.category_list .active{
-    color:#e02c2b;
-}
-.category_list .cat_checkbox{
-	width:15px;
-	height:12px;
-	margin-right:5px;
-}
-
-.dish_radio{
-	width: 16px;
-    height: 12px;
-    margin-right: 5px
-}
-
-
-.error_field{
-	margin-top: -28px;
-    margin-bottom: 18px;
-	color:red;
-}
-.success_field{
-	margin-top: 10px;
-	color:red;
-}
-
-.header_icon{font-size:23px !important;}
-
-.product-sorting-wrapper{width:100%;}
-.product-sorting-wrapper .product-show{float:right;}
-
-.product-price-wrapper .select{
-	height: 24px;
-    width: 50%;
-    border: 1px solid #626262;
-    margin-top: 7px;
-}
-
-.product-price-wrapper  .cart_icon{
-	font-size: 25px;
-    margin-left: 5px;
-	cursor:pointer;
-}
-
-.cart_already_added{
-	font-size:10px;
-	color:#e02c2b !important;
-}
-
-.shopping-cart-img img{width:100%;}
-
-
 .shopping-cart-content-box{
 	background: #fff none repeat scroll 0 0;
     border-radius: 5px;
@@ -5394,118 +5339,4 @@ h5.panel-title span {
 
 .checkout-progress .checkout_title{
 	margin-bottom:20px;
-}
-
-.checkout-login-btn .my_btn {
-    background-color: #f2f2f2;
-    color: #242424;
-    display: inline-block;
-    font-size: 13px;
-    font-weight: 500;
-    line-height: 1;
-    padding: 16px 62px 17px;
-    text-transform: uppercase;
-    border-radius: 3px;
-}
-
-.payment_status{
-	padding: 10px;
-    text-align: center;
-    color: #fff;
-    font-weight: bold;
-}
-
-.payment_status_pending{
-	background-color:red;
-}
-.payment_status_success{
-	background-color:green;
-}
-
-#coupon_code_msg{
-	margin-top:-10px;
-	color:red;
-}
-.coupon_price_box{
-	display:none;
-}
-
-.div_order_id {
-    background-color: #999;
-    padding: 10px;
-    text-align: center;
-	width: 50%;
-    margin-left: 24%;
-}
-.div_order_id a{
-	color:#fff;
-}
-
-.set_rating{
-	background-color: green;
-    height: 50px;
-    width: 80%;
-    text-align: center;
-    padding-top: 14px;
-    color: #fff;
-}
-.rating{
-	color:green;
-}
-
-#wallet_top_box{
-	color: #fff;
-    font-weight: bold;
-    margin-top: 10px;
-}
-
-.wallet_loop .in{
-	color:green;
-}
-
-.wallet_loop .out{
-	color:red;
-}
-
-#add_money_box{
-	margin-bottom:50px;
-}
-
-#add_money_box .w150{
-	width:150px;
-}
-
-#add_money_box .btn{
-	background-color: #e02c2b;
-    border: medium none;
-    cursor: pointer;
-    color: #fff;
-    font-weight: 600;
-    height: 44px;
-    margin-top: 0px;
-}
-
-#error_msg{
-	margin-top: 10px;
-	color:red;
-}
-
-.cancel_btn{
-	background-color: red;
-    padding: 5px 10px 5px 10px;
-    color: #fff;
-}
-
-.search_box_main{
-	width:50%;
-}
-.search_box{
-	width:200px;
-	float:left;
-}
-
-.seahc_box_btn{
-	background-color:#e02c2b;
-	color:#fff;
-	border:0px;
 }
